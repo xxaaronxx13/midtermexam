@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.center .avatar img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 5%;
+    object-fit: cover;
+    object-position: 0 -8px;
+}
+.center {
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 75vh;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    color: wheat;
+}
+
+.content h2,p{
+    font-weight: lighter;
+    letter-spacing: 1x;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.content h2 {
+    font-weight: 400;
+}
+
+.content h3 {
+    margin-top: 20px;
+}
