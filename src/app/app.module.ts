@@ -1,3 +1,4 @@
+import { ContactComponent } from './contact/contact.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -18,6 +19,7 @@ const routes: Routes = [
     {
     path:'contacts-navigation', component: ContactsNavigationComponent,
     children:[
+    {path:'contact', component: ContactComponent},
     {path:'profile', component: ProfileComponent},
     {path:'gallery', component: GalleryComponent},
       ]
